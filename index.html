@@ -19,19 +19,41 @@
             <div class="navegacao_box_navbar">
                 <ul class="navegacao__nav">
                     <li class="">
-                        <a class="text-white" href="#sobre">Sobre</a>
+                        <a href="#sobre" accesskey="2" title="Alt 2">Sobre</a>
                     </li>
                     <li class="">
-                        <a class="text-white" href="#habilidades">Habilidades</a>
+                        <a href="#habilidades" accesskey="3" title="Alt 3">Habilidades</a>
+                    <li class="">
+                        <a href="#portfolio" accesskey="4" title="Alt 4">Portfolio</a>
                     </li>
                     <li class="">
-                        <a class="text-white" href="#portifolio">Portifólio</a>
+                        <a href="#contato" accesskey="5" title="Alt 5">Contato</a>
                     </li>
                 </ul>
             </div>
-
         </div>
+
+        <!-- BARRA DE ACESSIBILIDADE-->
+        <div id="acessibilidade" class="fixed top-2 right-0">
+            <div id="atalhos" class="flex flex-row gap-2 p-2">
+                <!-- <div class="fonteMenos" title="Diminuir fonte (Alt -)" accesskey="-" aria-hidden="true">
+                    <span class="material-icons">&#xe900;</span>
+                  </div>
+                  <div class="fontePadrao" title="Fonte padrão 100% (Alt 0)" accesskey="0" aria-hidden="true">
+                    <span class="material-icons-outlined">&#xf01a;</span>
+                  </div>
+                  <div class="fonteMais" title="Aumentar fonte (Alt +)" accesskey="+" aria-hidden="true">
+                    <span class="material-icons">&#xe8ff;</span>
+                  </div> -->
+            </div>
+            <div vw class="enabled">
+                <div vw-access-button class="active"></div>
+                <div vw-plugin-wrapper>
+                    <div class="vw-plugin-top-wrapper"></div>
+                </div>
+            </div>
     </nav>
+
     <header class="header">
         <div class="container">
             <div class="principal">
@@ -58,12 +80,15 @@
                 </div>
                 <div class="sobre__texto">
                     <div class="titulo">Sobre mim</div>
-                    <p class="texto">Desenvolvedora Front-end, atualmente sou estudante de Sistemas para Internet na FATEC, com o objetivo aprender novas
-                    linguagens. Tenho grande facilidade em entender o ambiente de negócio, habilidade adquirida ao longo da minha carreira
-                    profissional. Entusiasmada vejo na tecnologia a possibilidade de aprimorar minhas habilidades e competências.</p>
+                    <p class="texto">Desenvolvedora Front-end, atualmente sou estudante de Sistemas para Internet na
+                        FATEC, com o objetivo aprender novas
+                        linguagens. Tenho grande facilidade em entender o ambiente de negócio, habilidade adquirida ao
+                        longo da minha carreira
+                        profissional. Entusiasmada vejo na tecnologia a possibilidade de aprimorar minhas habilidades e
+                        competências.</p>
                     <p class="subtitulo">Siga nas redes</p>
-                    <a href="https://raquelbennington.netlify.app/" target="_blank" title="Site oficial" alt="Site oficial"><i
-                            class="far fa-hand-pointer"></i></a>
+                    <a href="https://raquelbennington.netlify.app/" target="_blank" title="Site oficial"
+                        alt="Site oficial"><i class="far fa-hand-pointer"></i></a>
                     <a href="https://www.facebook.com/RaquelBennington/" target="_blank" title="Facebook"
                         alt="Facebook"><i class="fab fa-facebook-f"></i></a>
                     <a href="https://www.instagram.com/raquelbennington/" target="_blank" title="Instagram"
