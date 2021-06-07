@@ -24,9 +24,9 @@ li {
   list-style: none;
 }
 
-
 .img-responsive {
-  width: 20rem;
+  width: 40rem;
+  padding-left: 15rem;
 }
 
 /* define o tamanho da caixa */
@@ -35,6 +35,7 @@ li {
   width: 100%;
   max-width: 960px;
 }
+
 .container2 {
   margin: 0 auto;
   width: 33%;
@@ -101,7 +102,7 @@ li {
 
 .header {
   min-height: 70vh;
-  height: 480px;
+  height: 580px;
   background-color: black;
   background-size: cover;
   filter: contrast(100%);
@@ -130,11 +131,10 @@ li {
   width: 100%;
 }
 
-
 .titulo {
   font-family: Georgia, serif;
   font-weight: bold;
-  font-size: 4rem;
+  font-size: 3rem;
   color: #424444;
   margin-bottom: 1.5rem;
 }
@@ -149,10 +149,9 @@ li {
 
 .texto {
   font-size: 1.5rem;
-line-height: 2.5rem;
+  line-height: 2.5rem;
   margin-bottom: 3rem;
 }
-
 
 /* SOBRE */
 
@@ -174,7 +173,11 @@ line-height: 2.5rem;
 }
 
 .sobre__container{
+  min-height: 60vh;
+  height: 480px;
   display: flex;
+  justify-content: center;
+  align-items: center;
 } 
 
 .sobre-img {
@@ -190,5 +193,83 @@ line-height: 2.5rem;
   margin-bottom: 3rem;
   margin-right: 2rem;
   padding-left: 4rem;
+  margin-top: 2.5rem;
+}
+
+.Habilidades__container{
+  background-color: black;
+  margin-bottom: 3rem;
+  margin-top: 2.5rem;
+}
+
+.habilidade__flex{
+  min-height: 60vh;
+  height: 480px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.habilidade__box_icon{
+  width: 100%;
+  color: white;
+  margin-bottom: 3rem;
+  margin-right: 2rem;
+  margin-top: 2.5rem;
+}
+
+.Habilidades__texto{
+  width: 100%;
+  color: white;
+  margin-bottom: 3rem;
+  margin-right: 2rem;
+  margin-top: 2.5rem;
+}
+
+.Habilidades__icon{
+  display: flex;
+  justify-content: space-between;
+}
+
+.div_icon_icon{
+  width: 100%;
+}
+
+.icon_icon {
+  height: 300%;
+}
+
+.Footer__container{
+  background-color: black;
+  min-height: 10vh;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.Footer__box{
+  color: white;
+}
+
+/* section portifolio */
+
+.Portifolio__container{
+  min-height: 60vh;
+  height: 480px;
+}
+
+.card__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__container img{
+  width: 25rem;
+  height: 20rem;
+  margin-bottom: 3rem;
+  margin-right: 2rem;
   margin-top: 2.5rem;
 }
